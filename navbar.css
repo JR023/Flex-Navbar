@@ -1,0 +1,35 @@
+.nav{
+    display:flex;
+    width: 1000px;
+    background-color:rgb(52, 54, 54);
+    justify-content: space-between;
+}
+.nav-title{
+    color: whitesmoke;
+    padding-left: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+ul.nav-links{
+    list-style-type: none;
+}
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    padding-left: 40px;
+}
+.btn{
+    box-shadow: 2px 2px 3px 1px rgb(5, 1, 1);
+    background-color: rgba(0, 255, 255, 0.678);
+    border-color: black;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
